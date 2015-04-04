@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44E9750D1ACEC43500159300 /* WWInheritanceProxy.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 44E9750C1ACEC43500159300 /* WWInheritanceProxy.h */; };
+		44E9750F1ACEC43500159300 /* WWInheritanceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E9750E1ACEC43500159300 /* WWInheritanceProxy.m */; };
+		44E975151ACEC43500159300 /* libArtificalInheritance.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E975091ACEC43500159300 /* libArtificalInheritance.a */; };
+		44E975241ACECC8300159300 /* WWInheritanceProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E975231ACECC8300159300 /* WWInheritanceProxyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44E975161ACEC43500159300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44E975011ACEC43500159300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44E975081ACEC43500159300;
+			remoteInfo = ArtificalInheritance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44E975071ACEC43500159300 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				44E9750D1ACEC43500159300 /* WWInheritanceProxy.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		44E975091ACEC43500159300 /* libArtificalInheritance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libArtificalInheritance.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E9750C1ACEC43500159300 /* WWInheritanceProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWInheritanceProxy.h; sourceTree = "<group>"; };
+		44E9750E1ACEC43500159300 /* WWInheritanceProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWInheritanceProxy.m; sourceTree = "<group>"; };
+		44E975141ACEC43500159300 /* ArtificalInheritanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtificalInheritanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E9751A1ACEC43500159300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E975231ACECC8300159300 /* WWInheritanceProxyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWInheritanceProxyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44E975061ACEC43500159300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E975111ACEC43500159300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E975151ACEC43500159300 /* libArtificalInheritance.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44E975001ACEC43500159300 = {
+			isa = PBXGroup;
+			children = (
+				44E9750B1ACEC43500159300 /* ArtificalInheritance */,
+				44E975181ACEC43500159300 /* ArtificalInheritanceTests */,
+				44E9750A1ACEC43500159300 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44E9750A1ACEC43500159300 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44E975091ACEC43500159300 /* libArtificalInheritance.a */,
+				44E975141ACEC43500159300 /* ArtificalInheritanceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44E9750B1ACEC43500159300 /* ArtificalInheritance */ = {
+			isa = PBXGroup;
+			children = (
+				44E9750C1ACEC43500159300 /* WWInheritanceProxy.h */,
+				44E9750E1ACEC43500159300 /* WWInheritanceProxy.m */,
+			);
+			path = ArtificalInheritance;
+			sourceTree = "<group>";
+		};
+		44E975181ACEC43500159300 /* ArtificalInheritanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				44E975231ACECC8300159300 /* WWInheritanceProxyTests.m */,
+				44E975191ACEC43500159300 /* Supporting Files */,
+			);
+			path = ArtificalInheritanceTests;
+			sourceTree = "<group>";
+		};
+		44E975191ACEC43500159300 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44E9751A1ACEC43500159300 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44E975081ACEC43500159300 /* ArtificalInheritance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E9751D1ACEC43500159300 /* Build configuration list for PBXNativeTarget "ArtificalInheritance" */;
+			buildPhases = (
+				44E975051ACEC43500159300 /* Sources */,
+				44E975061ACEC43500159300 /* Frameworks */,
+				44E975071ACEC43500159300 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtificalInheritance;
+			productName = ArtificalInheritance;
+			productReference = 44E975091ACEC43500159300 /* libArtificalInheritance.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		44E975131ACEC43500159300 /* ArtificalInheritanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E975201ACEC43500159300 /* Build configuration list for PBXNativeTarget "ArtificalInheritanceTests" */;
+			buildPhases = (
+				44E975101ACEC43500159300 /* Sources */,
+				44E975111ACEC43500159300 /* Frameworks */,
+				44E975121ACEC43500159300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44E975171ACEC43500159300 /* PBXTargetDependency */,
+			);
+			name = ArtificalInheritanceTests;
+			productName = ArtificalInheritanceTests;
+			productReference = 44E975141ACEC43500159300 /* ArtificalInheritanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44E975011ACEC43500159300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Egor Chiglintsev";
+				TargetAttributes = {
+					44E975081ACEC43500159300 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					44E975131ACEC43500159300 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 44E975041ACEC43500159300 /* Build configuration list for PBXProject "ArtificalInheritance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44E975001ACEC43500159300;
+			productRefGroup = 44E9750A1ACEC43500159300 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44E975081ACEC43500159300 /* ArtificalInheritance */,
+				44E975131ACEC43500159300 /* ArtificalInheritanceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44E975121ACEC43500159300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44E975051ACEC43500159300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E9750F1ACEC43500159300 /* WWInheritanceProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E975101ACEC43500159300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E975241ACECC8300159300 /* WWInheritanceProxyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44E975171ACEC43500159300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44E975081ACEC43500159300 /* ArtificalInheritance */;
+			targetProxy = 44E975161ACEC43500159300 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		44E9751B1ACEC43500159300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44E9751C1ACEC43500159300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44E9751E1ACEC43500159300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44E9751F1ACEC43500159300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		44E975211ACEC43500159300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArtificalInheritanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44E975221ACEC43500159300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArtificalInheritanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44E975041ACEC43500159300 /* Build configuration list for PBXProject "ArtificalInheritance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E9751B1ACEC43500159300 /* Debug */,
+				44E9751C1ACEC43500159300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44E9751D1ACEC43500159300 /* Build configuration list for PBXNativeTarget "ArtificalInheritance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E9751E1ACEC43500159300 /* Debug */,
+				44E9751F1ACEC43500159300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44E975201ACEC43500159300 /* Build configuration list for PBXNativeTarget "ArtificalInheritanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E975211ACEC43500159300 /* Debug */,
+				44E975221ACEC43500159300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44E975011ACEC43500159300 /* Project object */;
+}
