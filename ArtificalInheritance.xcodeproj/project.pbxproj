@@ -11,6 +11,8 @@
 		44E9750F1ACEC43500159300 /* WWInheritanceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E9750E1ACEC43500159300 /* WWInheritanceProxy.m */; };
 		44E975151ACEC43500159300 /* libArtificalInheritance.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E975091ACEC43500159300 /* libArtificalInheritance.a */; };
 		44E975241ACECC8300159300 /* WWInheritanceProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E975231ACECC8300159300 /* WWInheritanceProxyTests.m */; };
+		5DF8669E1AD1355D006E9F74 /* WWOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8669D1AD1355D006E9F74 /* WWOrderedDictionary.m */; };
+		5DF866A01AD13968006E9F74 /* WWOrderedDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8669F1AD13968006E9F74 /* WWOrderedDictionaryTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,9 @@
 		44E975141ACEC43500159300 /* ArtificalInheritanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtificalInheritanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E9751A1ACEC43500159300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44E975231ACECC8300159300 /* WWInheritanceProxyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWInheritanceProxyTests.m; sourceTree = "<group>"; };
+		5DF8669C1AD1355D006E9F74 /* WWOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWOrderedDictionary.h; sourceTree = "<group>"; };
+		5DF8669D1AD1355D006E9F74 /* WWOrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWOrderedDictionary.m; sourceTree = "<group>"; };
+		5DF8669F1AD13968006E9F74 /* WWOrderedDictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWOrderedDictionaryTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,7 @@
 		44E975001ACEC43500159300 = {
 			isa = PBXGroup;
 			children = (
+				5DF8669B1AD1346A006E9F74 /* Example */,
 				44E9750B1ACEC43500159300 /* ArtificalInheritance */,
 				44E975181ACEC43500159300 /* ArtificalInheritanceTests */,
 				44E9750A1ACEC43500159300 /* Products */,
@@ -95,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				44E975231ACECC8300159300 /* WWInheritanceProxyTests.m */,
+				5DF8669F1AD13968006E9F74 /* WWOrderedDictionaryTests.m */,
 				44E975191ACEC43500159300 /* Supporting Files */,
 			);
 			path = ArtificalInheritanceTests;
@@ -106,6 +113,15 @@
 				44E9751A1ACEC43500159300 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DF8669B1AD1346A006E9F74 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				5DF8669C1AD1355D006E9F74 /* WWOrderedDictionary.h */,
+				5DF8669D1AD1355D006E9F74 /* WWOrderedDictionary.m */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44E9750F1ACEC43500159300 /* WWInheritanceProxy.m in Sources */,
+				5DF8669E1AD1355D006E9F74 /* WWOrderedDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44E975241ACECC8300159300 /* WWInheritanceProxyTests.m in Sources */,
+				5DF866A01AD13968006E9F74 /* WWOrderedDictionaryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +378,7 @@
 				44E9751F1ACEC43500159300 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44E975201ACEC43500159300 /* Build configuration list for PBXNativeTarget "ArtificalInheritanceTests" */ = {
 			isa = XCConfigurationList;
@@ -368,6 +387,7 @@
 				44E975221ACEC43500159300 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
