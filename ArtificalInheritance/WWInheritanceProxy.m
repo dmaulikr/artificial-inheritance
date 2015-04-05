@@ -171,6 +171,11 @@
 
 - (BOOL)respondsToSelector:(SEL)aSelector
 {
+    NSString *selectorString = NSStringFromSelector(aSelector);
+    if ([self.designatedTargets objectForKey: selectorString] != nil) {
+        return YES;
+    }
+    
     for (id parent in self.parents.allValues) {
         if ([parent respondsToSelector: aSelector]) {
             return YES;
