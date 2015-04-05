@@ -200,6 +200,7 @@
     
     if (designatedTarget != nil) {
         [invocation invokeWithTarget: designatedTarget];
+        didInvoke = YES;
     }
     
     return didInvoke;
